@@ -1,0 +1,66 @@
+#navbar{
+    display: inline-flex;
+    gap: 10%;
+}
+#button1{
+    color: white;
+    background-color: black;
+}
+#page1{
+    display: flex;
+}#heading2{
+    display: flex;
+    gap: 10%;
+}
+#navbar2{
+    text-align: center;
+    display: flex;
+    gap: 5%;
+    
+}#button2{
+    display: flex;
+    gap: 20%;
+}
+#button3{
+    color: white;
+    background-color: red;
+    
+}
+#page2{
+    display: flex;
+}
+
+#page3{
+    display: flex;
+}
+#button4{
+    color: white;
+    background-color: black;
+}
+#page4{
+    display: flex;
+    gap: 5%;
+}
+#button5{
+    color: white;
+    background-color: red;
+}
+#button6{
+  color: white;
+  background-color: yellow;
+
+}
+#page5{
+    display: flex;
+    gap: 20%;
+}
+#page6{
+    display: flex;
+}
+#page7{
+    display: flex;
+
+}
+#page8{
+    display: flex;
+}
