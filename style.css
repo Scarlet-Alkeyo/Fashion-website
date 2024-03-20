@@ -8,6 +8,7 @@
 }
 #page1{
     display: flex;
+    gap: 10%;
 }#heading2{
     display: flex;
     gap: 10%;
@@ -28,10 +29,12 @@
 }
 #page2{
     display: flex;
+    gap: 20%;
 }
 
 #page3{
     display: flex;
+    gap: 20%;
 }
 #button4{
     color: white;
@@ -56,11 +59,39 @@
 }
 #page6{
     display: flex;
+    gap: 20%;
 }
 #page7{
     display: flex;
 
 }
 #page8{
+    text-align: center;
+}
+#button7{
+    color:  white;
+    background-color: black;
+}
+#page9{
     display: flex;
+    gap: 30%;
+}
+#page10{
+    display: flex;
+    gap: 10%;
+}
+#page11{
+  text-align: center;
+}
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.prev .next{
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: auto;
 }
