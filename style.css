@@ -1,11 +1,15 @@
 body{
-    margin-left: 10%;
-    margin-right: 10%;
+
+    background-color: aquamarine;
 }
+
+
 #navbar{
     display: flex;
-    background-color: aqua;
     gap: 10%;
+    
+    
+    
 }
 #button1{
     color: white;
@@ -16,9 +20,11 @@ body{
     flex-direction: row;
     gap: 10%;
 }
+
 #heading2{
     display: flex;
-    gap: 10%;
+    gap: 20%;
+    text-align: center;
 }
 #navbar2{
     text-align: center;
@@ -37,12 +43,12 @@ body{
 }
 #page2{
     display: flex;
-    gap: 10%;
+    gap: 5%;
 }
 
 #page3{
     display: flex;
-    gap: 10%;
+    gap: 7%;
 }
 #button4{
     color: white;
@@ -67,10 +73,11 @@ body{
 }
 #page6{
     display: flex;
-    gap: 20%;
+    gap: 15%;
 }
 #page7{
     display: flex;
+    gap: 20%;
 
 }
 #page8{
@@ -99,6 +106,11 @@ body{
   color: white; 
   background-color: black;
 }
+#stylish{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
 
 
     
@@ -108,7 +120,7 @@ body{
            
       
 
-@media screen and (min-width: 375px) and(max-width: 1024){
+@media screen and (min-width: 375px) and(max-width:768px){
     body{
         margin-left: 13%;
         margin-right: 13%;
@@ -169,10 +181,13 @@ body{
         flex-wrap: wrap;
     
     }
-    
-
-
+    #stylish{
+        display: block;
+        
+        gap: 10%;
+    }
 }
+    
 
 #page1{
     display: flex;
@@ -223,3 +238,9 @@ body{
     flex-wrap: wrap;
 
 }
+#stylish{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    gap: 10%;
+} 
