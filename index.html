@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div id="navbar">
         <h1>April</h1>
         <h2>Home</h2>
@@ -15,7 +16,6 @@
         <h2>Pages</h2>
         <h2>contact us</h2>
     </div>
-
     <div>
 
     <div id="page1">
@@ -34,6 +34,60 @@
     <div><img src="./image/man1gif"alt="stylish man" ></div>
    <div><img src="image/children.gif"alt="amazing" width="400px"></div> 
 </div>
+
+<div id="Slideshow">
+    <h1>At april store  choose all fashion available at affordable  price</h1>
+<p>Slideshow :</p>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="./image/children4s.jpeg" style="width:20%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="./image/children2.jpeg" style="width:25%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="./image/children3.webp" style="width:20%">
+  </div>
+
+
+ <div class="mySlides1">
+    <img src="./image/children1.jpeg" style="width:20%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+</div>
+
+<script>
+    let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+
+
+
+
 </div>
 
 <div id="heading2">
@@ -45,6 +99,7 @@
 
 <div id="navbar2">
     <h1>All</h1>
+
     <p>BLAZERS</p>
     <P>JACKETS</P>
     <P>DRESSES</P>
